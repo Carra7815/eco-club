@@ -14,25 +14,19 @@ import { Section, Header } from "react-aria-components";
 function Navmenu() {
   return (
     <MenuTrigger>
-      <Button aria-label="Menu" className="outline-none">
-        <Bars3Icon className="h-6 w-6 text-black" />
+      <Button aria-label="Menu" preventFocusOnPress>
+        <Bars3Icon className="nav-text-color h-6 w-6" />
       </Button>
       <Popover>
-        <Menu className="w-64 rounded bg-slate-950 p-1 pb-3 text-slate-200 outline outline-1 outline-white">
-          <Section className="focus:bg-slate-500">
-            <Header className="no-select cursor-default pl-4 font-bold">
+        <Menu className="w-64 rounded bg-slate-950 p-1 pb-3">
+          <Section>
+            <Header className="no-select cursor-default pl-4 font-bold text-white">
               Us
             </Header>
-            <MenuItem
-              className="block cursor-pointer rounded-md pl-5 outline-none hover:bg-violet-800"
-              href="/support"
-            >
+            <MenuItem className="menu-item" href="/support">
               Support
             </MenuItem>
-            <MenuItem
-              className="block cursor-pointer rounded-md pl-5 outline-none hover:bg-violet-800"
-              href="/contact"
-            >
+            <MenuItem className="menu-item" href="/contact">
               Contact
             </MenuItem>
           </Section>

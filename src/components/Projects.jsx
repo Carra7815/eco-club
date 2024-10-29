@@ -23,7 +23,7 @@ const projects = [
 
 function Projects() {
   return (
-    <div className="mx-auto max-w-2xl">
+    <div className="body-container">
       <h1 className="mb-4 text-3xl font-bold">Our Projects</h1>
       <p className="mb-6">
         Here are some of the exciting projects our club is currently working on:

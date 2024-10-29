@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -10,13 +11,17 @@ function About() {
         protect and preserve our planet by empowering students to develop
         innovative solutions that address pressing ecological issues.
       </p>
-      <h2>Our Vision</h2>
+      <h2>
+        <Link to="/vision">Our Vision</Link>
+      </h2>
       <p>
         We envision a world where students take the lead in environmental
         conservation, using their creativity and passion to implement
         sustainable practices in their communities.
       </p>
-      <h2>What We Believe</h2>
+      <h2>
+        <Link to="/beliefs">What We Believe</Link>
+      </h2>
       <ul>
         <li>
           <b>Collaberation: </b>
@@ -40,9 +45,13 @@ function About() {
           </p>
         </li>
       </ul>
+      <h2>
+        <Link to="/projects">Our Projects</Link>
+      </h2>
       <p>
-        We welcome students from all backgrounds and skill levels. Whether
-        you're a beginner or an expert, there's a place for you in our club!
+        If you're interested in being part of our journey toward a more
+        sustainable future, we invite you to join the Ecosystem Club! Let's work
+        together to turn innovative ideas into real-world solutions.
       </p>
     </div>
   );

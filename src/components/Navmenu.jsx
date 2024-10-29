@@ -15,7 +15,7 @@ function Navmenu() {
   return (
     <MenuTrigger>
       <Button aria-label="Menu" preventFocusOnPress>
-        <Bars3Icon className="nav-text-color h-6 w-6" />
+        <Bars3Icon className="nav-item h-6 w-6" />
       </Button>
       <Popover>
         <Menu className="w-64 rounded bg-slate-950 p-1 pb-3">

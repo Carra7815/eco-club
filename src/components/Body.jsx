@@ -7,6 +7,8 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Support from "./Support";
+import Beliefs from "./Beliefs";
+import Vision from "./Vision";
 
 function Body() {
   return (
@@ -18,6 +20,8 @@ function Body() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/support" element={<Support />} />
+          <Route path="/beliefs" element={<Beliefs />} />
+          <Route path="/vision" element={<Vision />} />
         </Routes>
       </div>
     </div>

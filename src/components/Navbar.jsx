@@ -7,17 +7,17 @@ function Navbar() {
   return (
     <nav>
       <div className="container mx-auto flex items-center justify-between">
-        <Link to="/" className="text-light text-xl font-bold">
+        <Link to="/" className="text-dark dark:text-light text-xl font-bold">
           eco club
         </Link>
         <ul className="flex items-center space-x-4">
           <li>
-            <Link to="/about" className="nav-text-color">
+            <Link to="/about" className="nav-item">
               About
             </Link>
           </li>
           <li>
-            <Link to="/projects" className="nav-text-color">
+            <Link to="/projects" className="nav-item">
               Projects
             </Link>
           </li>
@@ -25,7 +25,7 @@ function Navbar() {
             <Navmenu />
           </li>
           <li className="flex">
-            <ThemeToggle className="nav-text-color" />
+            <ThemeToggle className="nav-item" />
           </li>
         </ul>
       </div>

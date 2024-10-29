@@ -12,9 +12,9 @@ function ThemeToggle() {
       preventFocusOnPress
     >
       {isDark ? (
-        <SunIcon className="nav-text-color h-5 w-5" />
+        <SunIcon className="nav-item h-5 w-5" />
       ) : (
-        <MoonIcon className="nav-text-color h-5 w-5" />
+        <MoonIcon className="nav-item h-5 w-5" />
       )}
     </Button>
   );

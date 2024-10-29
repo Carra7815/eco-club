@@ -3,18 +3,21 @@ import React from "react";
 const projects = [
   {
     id: 1,
-    name: "Annual Science Fair",
-    description: "Showcasing innovative student projects",
+    name: "Project 1",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe placeat possimus eos odio voluptate hic in ipsum nisi, quasi sapiente enim velit inventore culpa explicabo mollitia sit corrupti nostrum veritatis?",
   },
   {
     id: 2,
-    name: "Community Outreach Program",
-    description: "Engaging with local schools to promote STEM",
+    name: "Project 2",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa neque dolorum molestiae ratione quia dolorem et ullam vel quos architecto repellendus, quas tempora at incidunt, adipisci temporibus quis molestias voluptas!",
   },
   {
     id: 3,
-    name: "Robotics Workshop",
-    description: "Hands-on learning with cutting-edge robotics",
+    name: "Project 3",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sint ipsam est iste quaerat ex officiis inventore quasi repellendus at animi fugit enim quidem excepturi et incidunt, eum vero commodi.",
   },
 ];
 

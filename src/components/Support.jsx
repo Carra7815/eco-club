@@ -3,10 +3,12 @@ import React from "react";
 function Support() {
   return (
     <div className="mx-auto max-w-2xl">
-      <h1 className="mb-4 text-3xl font-bold">Want to Support Us?</h1>
-      <p className="mb-4">
-        We're excited to have you here! My website is dedicated to fostering
-        creativity, collaboration, and learning among students.
+      <h1>Want to Support Us?</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi dicta
+        tempore perferendis distinctio quo voluptas similique qui laborum
+        suscipit eaque nihil doloribus in delectus iusto, quam eveniet ullam,
+        labore dolorum.
       </p>
     </div>
   );

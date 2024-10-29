@@ -12,8 +12,8 @@ import Vision from "./Vision";
 
 function Body() {
   return (
-    <div className="grow overflow-y-auto border-4 border-red-950">
-      <div className="container mx-auto my-8 border-4 border-blue-900">
+    <div className="grow overflow-y-auto">
+      <div className="container mx-auto my-8">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

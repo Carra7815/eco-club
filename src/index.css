@@ -11,6 +11,10 @@
     @apply w-full bg-gradient-to-r from-teal-100 to-sky-200 p-4 shadow-lg dark:from-blue-950 dark:to-black;
   }
 
+  main {
+    @apply grow overflow-y-auto px-8 py-8;
+  }
+
   h1 {
     @apply mb-4 text-3xl font-bold;
   }
@@ -35,5 +39,13 @@
 
   .menu-header {
     @apply cursor-default select-none pb-1 pl-4 font-bold;
+  }
+
+  .body-container {
+    @apply mx-auto max-w-2xl;
+  }
+
+  .std-icon {
+    @apply inline-block h-4 w-4;
   }
 }

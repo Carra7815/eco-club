@@ -5,7 +5,7 @@ import { useHref, useNavigate } from "react-router-dom";
 import { RouterProvider } from "react-aria-components";
 
 import Navbar from "@components/Navbar";
-import Body from "@components/Body";
+import Main from "@components/Main";
 
 function App() {
   let navigate = useNavigate();
@@ -14,7 +14,7 @@ function App() {
     <RouterProvider navigate={navigate} useHref={useHref}>
       <div className="flex h-screen flex-col">
         <Navbar />
-        <Body />
+        <Main />
       </div>
     </RouterProvider>
   );

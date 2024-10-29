@@ -2,7 +2,7 @@ import React from "react";
 
 function Vision() {
   return (
-    <div className="mx-auto max-w-2xl">
+    <div className="body-container">
       <h1>Our Vision</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi,

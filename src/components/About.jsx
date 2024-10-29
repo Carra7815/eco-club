@@ -1,9 +1,10 @@
+import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
 import React from "react";
 import { Link } from "react-router-dom";
 
 function About() {
   return (
-    <div className="mx-auto max-w-2xl">
+    <div className="body-container">
       <h1>About Us</h1>
       <p>
         The Ecosystem Club is a student-led organization dedicated to fostering
@@ -12,7 +13,10 @@ function About() {
         innovative solutions that address pressing ecological issues.
       </p>
       <h2>
-        <Link to="/vision">Our Vision</Link>
+        <Link to="/vision">
+          Our Vision
+          <ArrowUpRightIcon className="std-icon" />
+        </Link>
       </h2>
       <p>
         We envision a world where students take the lead in environmental
@@ -20,7 +24,10 @@ function About() {
         sustainable practices in their communities.
       </p>
       <h2>
-        <Link to="/beliefs">What We Believe</Link>
+        <Link to="/beliefs">
+          What We Believe
+          <ArrowUpRightIcon className="std-icon" />
+        </Link>
       </h2>
       <ul>
         <li>
@@ -46,7 +53,10 @@ function About() {
         </li>
       </ul>
       <h2>
-        <Link to="/projects">Our Projects</Link>
+        <Link to="/projects">
+          Our Projects
+          <ArrowUpRightIcon className="std-icon" />
+        </Link>
       </h2>
       <p>
         If you're interested in being part of our journey toward a more

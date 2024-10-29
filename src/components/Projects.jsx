@@ -27,7 +27,10 @@ function Projects() {
       </p>
       <ul className="space-y-4">
         {projects.map((project) => (
-          <li key={project.id} className="rounded bg-white p-4 shadow">
+          <li
+            key={project.id}
+            className="rounded bg-white p-4 shadow-md dark:bg-blue-900"
+          >
             <h2 className="mb-2 text-xl font-semibold">{project.name}</h2>
             <p>{project.description}</p>
           </li>

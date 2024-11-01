@@ -32,7 +32,7 @@ function Projects() {
         {projects.map((project) => (
           <li
             key={project.id}
-            className="rounded bg-white p-4 shadow-md dark:bg-blue-950"
+            className="rounded bg-white p-4 shadow-lg dark:bg-gradient-to-br dark:from-indigo-950 dark:to-sky-950 dark:shadow-inner dark:shadow-indigo-800"
           >
             <h2 className="mb-2 text-xl font-semibold">{project.name}</h2>
             <p>{project.description}</p>

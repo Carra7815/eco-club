@@ -18,7 +18,7 @@ function Navmenu() {
         <Bars3Icon className="nav-item h-6 w-6" />
       </Button>
       <Popover>
-        <Menu className="w-64 rounded bg-light p-1 pb-3 outline outline-1 outline-dark dark:bg-slate-900 dark:outline-light">
+        <Menu className="w-64 rounded bg-amber-50 p-1 pb-3 outline outline-1 outline-dark dark:bg-slate-900 dark:outline-light">
           <Section>
             <Header className="menu-header">Pages</Header>
             <MenuItem className="menu-item" href="/vision">
